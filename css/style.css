@@ -1,0 +1,274 @@
+@import url(./header.css);
+@import url(./carousel.css);
+@import url(./main.css);
+@import url(./aside.css);
+@import url(./footer.css);
+@import url(./burger.css);
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&display=swap');
+@import url('https://fonts.cdnfonts.com/css/vampiro-one');
+/* variables */
+:root{
+    --bgColor: #33264E;
+    --bgFooterCards: #362953;
+    --linksImportantColors: #EE3E52;
+    --buttonGradient: #FF6071;
+    --butonGradientBis: #FF7E8E;
+    --categoryA: #E91E63;
+    --categoryB: #38C4D1;
+    --categoryC: #27CC81;
+    --categoryD: #1E88E5;
+    --categoryE: #5567DA;
+    --categoryF: #673AB7;
+    --twitter: #63CDF1;
+    --facebook: #507CBE;
+    --instagram: #D62976;
+    --pinterest: #EE3E52;
+}
+
+body{
+    background-color: #33264E;
+    margin: 0px; 
+    /* width: 100%; */
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+ {
+    
+   
+      .header-top .social-media{
+        display: none;
+        
+    } 
+    header span{
+        width: 100%;
+    }
+    #openBtn{
+        display: block;
+        & img{
+            width:55px;
+            height:55px;
+        }
+      }
+       nav{
+        display: none;
+       } 
+       #carousel{
+        width: 90%;
+   }
+   .sidebar{
+    display: none;
+   }
+   main{
+    width:95%; 
+   }
+  .article{
+    width:100%;
+    margin-bottom: 30px;
+  }
+  footer #top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-left: 0px;
+}
+  footer #top ul{
+    display: none;
+  }
+   .subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    & h2{
+        font-size: 1.3rem;
+    }
+    & #send-email{
+        flex: 1;
+    }
+   }
+   .article-view{
+    width: 95%;
+    & img{
+        width: 100%;
+    }
+   }
+   .article-comment{
+    width: 100%;
+   }
+   .article-detail{
+    width: 100%;
+   }
+   .aticle-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    & img {
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    & p{
+        margin: 15px;
+    }
+   }
+}  
+@media only screen and (max-width: 767px) {
+    .header-top .social-media{
+        display: none;
+        
+    } 
+    header span{
+        width: 100%;
+    }
+    #openBtn{
+        display: block;
+        & img{
+            width:55px;
+            height:55px;
+        }
+      }
+       nav{
+        display: none;
+       } 
+       #carousel{
+        width: 95%;
+   }
+  
+  
+   .sidebar{
+    display: none;
+    
+   }
+   main{
+    width:95%; 
+   }
+  .article{
+    /* width: 100%; */
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-bottom: 30px;
+   
+  }
+ .article img{
+    height: 600px;
+    object-fit: fill;
+    
+ }
+ .right{
+    width: 100%;
+    height: 400px;
+    & img{
+        width: 40px;
+        height: 40px;
+        
+
+    }   
+ }
+ 
+ .right:nth-child(2) h4{
+    font-size: 1rem;
+ }
+ 
+ .right:nth-child(2) h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 10px;
+    margin-bottom: 20px;
+       }
+ .right:nth-child(2) p{
+    font-family: 'mulish', serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 3rem;
+    }
+    .article-partage{
+        width:95%;
+        /* margin-top: 20px; */
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         & :nth-child(2){
+             margin-left: auto;
+             margin-right: 10px;
+         }
+        
+            & img {
+             width: 40px;
+             height: 40px;
+         }
+        }
+   .right{
+    width: 100%;
+   }
+   .auteur {
+    width:95%;
+   }
+  
+  footer #top ul{
+    display: none;
+  }
+  footer .bottom{
+    display: flex;
+    justify-content: center;
+    /* gap: 30px; */
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+   
+    & h2{
+        font-size: 1.2rem;
+        
+    }
+    & #send-email{
+        flex: 1;
+    }
+   }
+   .article-view{
+    
+    width: 95%;
+    & img{
+        width: 100%;
+        
+    }
+   }
+   .article-comment{
+    width: 100%;
+   }
+   .article-detail{
+    width: 100%;
+   }
+   .aticle-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    & img {
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    & p{
+        margin: 15px;
+    }
+   }
+   footer #top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-left: 0px;
+   }
+}  

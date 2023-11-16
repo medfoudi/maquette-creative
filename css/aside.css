@@ -1,0 +1,202 @@
+
+.sidebar{
+    width: 30%;
+    /* margin-top: 50px; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.recent-post{
+    margin-bottom: 45px;
+}
+.sidebar h2{
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+   
+    & span{
+        width: 180px;
+        height: 2px;
+        background-color: var(--categoryA);
+        margin-left: 10px;
+    }
+}
+.post{
+    width:100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    
+
+    & img {
+        width:100px ;
+        height: 100px;
+        object-fit:cover;
+    }
+}
+.post-description{
+    width: 50%;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    }
+    .post-description h4{
+        margin: 10px 0px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        & span{
+            width:10px;
+            height: 10px;
+            margin-right: 10px;
+            transform: rotate(45deg);
+            background-color: var(--categoryA)
+        }
+         
+    }
+    .social-profiles{
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+    
+    #twitter{
+       width: 75%;
+       padding: 12px 20px ;
+       margin-bottom: 20px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--twitter);
+        color: white;
+        & img{
+            width:50px;
+            height: 50px;   
+        }
+    }
+    #twitter div p{
+        margin: 1px;  
+    }
+    #twitter div p:first-child{
+        font-family: 'Playfair Display', serif;  
+        font-size: 1.2rem;
+    }
+    #twitter div p:last-child{
+        font-family: 'Mulish', sans-serif;  
+        font-size: 0.6rem;
+        font-weight: lighter;
+    }
+    #facebook{
+       width: 75%;
+       margin-bottom: 20px;
+        padding: 12px 20px ;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--facebook);
+        color: white;
+        & img{
+            width:50px;
+            height: 50px;   
+        }
+    }
+    #facebook div p{
+        margin: 1px;  
+    }
+    #facebook div p:first-child{
+        font-family: 'Playfair Display', serif;  
+        font-size: 1.2rem;
+    }
+    #facebook div p:last-child{
+        font-family: 'Mulish', sans-serif;  
+        font-size: 0.6rem;
+        font-weight: lighter;
+    }
+    #instagram{
+       width: 75%;
+        padding: 12px 20px ;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--instagram);
+        color: white;
+        & img{
+            width:50px;
+            height: 50px;   
+        }
+    }
+    #instagram div p{
+        margin: 1px;  
+    }
+    #instagram div p:first-child{
+        font-family: 'Playfair Display', serif;  
+        font-size: 1.2rem;
+    }
+    #instagram div p:last-child{
+        font-family: 'Mulish', sans-serif;  
+        font-size: 0.6rem;
+        font-weight: lighter;
+    }
+    .categories div{
+        display: grid;
+        width: 70%;
+        grid-template-columns: repeat(3, 1fr);
+        color: white;
+        font-family:'Mulish', sans-serif ;
+    }
+    .categories div p{
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+    }
+    .categories div p:first-child span{
+        width:10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--categoryF);
+    }
+    .categories div p:nth-child(2) span{
+        width:10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--categoryC);
+    }
+    .categories div p:nth-child(3) span{
+        width:10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--categoryB);
+    }
+    .categories div p:nth-child(4) span{
+        width:10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--categoryA);
+    }
+    .categories div p:nth-child(5) span{
+        width:10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--categoryE);
+    }
+    .categories div p:nth-child(6) span{
+        width:10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: var(--facebook);
+    }
+    .advertising{
+        margin-top: 150px;
+        width: 100%;
+        & img{
+            width:50%;
+            margin: 0 50px;
+        }
+    }
+   

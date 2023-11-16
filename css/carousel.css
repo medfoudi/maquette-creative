@@ -1,0 +1,104 @@
+
+#carousel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.6)) ,url(../ressources/img/pexels-lisa-fotios-1882410.jpg);
+    background-size:cover;
+    
+    
+   color: white;
+   max-width: 1600px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+#carousel h4:nth-child(1){
+    font-size: 1.2rem;
+    font-family:  'Mulish', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    & span{
+       
+        width:10px;
+        height:10px;
+        border-radius: 100%;
+        background-color: var(--categoryB) ;
+        margin-right: 10px;
+    }
+    
+}
+#carousel h2{
+    font-size: 2.5rem;
+    margin: 10px;
+    font-family:'Playfair Display', serif;
+    font-weight: lighter;
+    text-align: center;
+}
+#carousel input{
+    background-color: var(--linksImportantColors);
+    padding: 12px 50px;
+    border: none;
+    font-size: 1.1rem;
+    color:white;
+    font-family:  'Mulish', sans-serif;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+
+
+#carousel div:nth-child(3){
+   width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  'Mulish', sans-serif;
+    font-weight:lighter;
+  
+    & img {
+        width:50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    & span{
+        width:10px;
+        height: 10px;
+        transform: rotate(45deg);
+        background-color: var(--categoryA) ;
+    }
+}
+.carousel-bottom{
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    
+    
+    & :first-child{
+        width: 24px;
+        height: 14px;
+        border-radius: 35%;
+        background-color: var(--categoryA);
+    }
+    & :nth-child(2){
+        width: 12px;
+        height: 12px;
+        border-radius: 100%;
+        border: 1px solid white;
+    }
+    & :nth-child(3){
+        width: 12px;
+        height: 12px;
+        border-radius: 100%;
+        border: 1px solid white;
+    }
+}

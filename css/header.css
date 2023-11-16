@@ -1,0 +1,67 @@
+
+header{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-top{
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+   & img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+   }
+   & h1{
+    
+    font-family:'Vampiro One', sans-serif;
+    font-size: 4.5rem;
+    font-weight: lighter;
+    color: white;
+    
+    
+   }
+}
+ .header-top.social-media{
+    display: flex;
+}
+nav{
+    width: 100%;
+    
+    margin-bottom: 30px;
+
+    
+  
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+   
+}
+nav li{
+    list-style: none;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    margin: 0px 15px;   
+}
+header span{
+    margin: 10px auto;
+    margin-bottom: 30px;
+    display: flex;
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+
+  
+  
+
